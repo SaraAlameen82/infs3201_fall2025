@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "promises": "^0.2.5",
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "jsdoc": "^4.0.4"
+  },
+  "scripts": {
+    "docs": "jsdoc app.js"
+  }
+}
