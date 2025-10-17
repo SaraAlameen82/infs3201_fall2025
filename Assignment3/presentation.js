@@ -45,7 +45,6 @@ async function updatePhotoDetails(photoID) {
         console.log("\nPhoto not found.")
     }
     else {
-        console.log('check---------')
         console.log("Press Enter to reuse existing values.")
         let newTitle = prompt(`Enter value for title [${photo.title}]: `)
         let newDescription = prompt(`Enter value for description [${photo.description}]: `)
