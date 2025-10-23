@@ -1,0 +1,9 @@
+<h1>Editing Photo</h1>
+
+<form action="/photos/{{photo.id}}/edit" method="post">
+    <label>Title: </label>
+    <input name="title" placeholder="{{photo.title}}"><br>
+    <label>Description: </label>
+    <input name="description" placeholder="{{photo.description}}"><br>
+    <input type="submit" value="Submit">
+</form>

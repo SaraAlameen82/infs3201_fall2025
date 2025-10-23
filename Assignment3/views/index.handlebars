@@ -1,0 +1,7 @@
+<h1>Photo Album</h1>
+
+<ul>
+    {{#each albums}}
+        <li><a href='/albums/{{this.name}}'>{{this.name}}</a></li>
+    {{/each}}
+</ul>
