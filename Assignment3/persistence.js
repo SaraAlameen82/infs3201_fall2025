@@ -1,4 +1,4 @@
-const fs = require('fs/promises')
+// const fs = require('fs/promises')
 const { MongoClient } = require('mongodb')
 const uri = 'mongodb+srv://60101453:sara0802@60101453.0eycr.mongodb.net/'
 
